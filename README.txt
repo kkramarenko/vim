@@ -12,4 +12,5 @@ Quick-start:
   wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
   wget https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
   mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
-  fc-cache -vf (current directory with fonts)  
+  mv PowerlineSymbols.otf ~/.fonts/
+  fc-cache -vf ~/.fonts  
